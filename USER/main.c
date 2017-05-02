@@ -20,7 +20,7 @@
 #include "./Bsp/usart/bsp_debug_usart.h"
 #include "./gps/gps_config.h"
 
-void Delay(__IO u32 nCount); 
+
 
 // WIFI和SD卡公用SDIO总线，当使用SD卡时，避免WIFI的冲突
 // 需要把WIFI的使能引脚PDN拉低。
